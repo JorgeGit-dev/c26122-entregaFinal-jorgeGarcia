@@ -1,0 +1,37 @@
+/* ========================= */
+/* ITEM LIST (GRID SYSTEM)   */
+/* ========================= */
+
+.products-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* separación uniforme */
+.products-container.row {
+  row-gap: 1.5rem;
+}
+
+/* animación de entrada del catálogo */
+.products-container {
+  animation: fadeInList 0.25s ease-in;
+}
+
+/* estado vacío */
+.no-products {
+  text-align: center;
+  padding: 4rem 1rem;
+  font-size: 1.1rem;
+  color: var(--bs-secondary-color);
+}
+
+@keyframes fadeInList {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,18 @@
+.nav-custom {
+
+    font-weight: 500;
+
+    transition: all .25s ease;
+}
+
+.nav-custom:hover {
+
+    color: var(--bs-primary);
+}
+
+.nav-custom.active {
+
+    color: var(--bs-primary) !important;
+
+    border-bottom: 2px solid var(--bs-primary);
+}

@@ -1,0 +1,25 @@
+.footer{
+
+    background:#f8f9fa;
+}
+
+.footer-title{
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+}
+
+.footer-slogan{
+
+    color:#6c757d;
+
+    font-size:.95rem;
+}
+
+.footer-copy{
+
+    color:#6c757d;
+
+    font-size:.9rem;
+}

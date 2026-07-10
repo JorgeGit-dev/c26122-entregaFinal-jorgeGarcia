@@ -1,0 +1,62 @@
+/* ==========================================================
+   PRODUCT LIST ADMIN
+========================================================== */
+
+.product-list-admin {
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* =========================
+   TABLA
+========================= */
+
+.product-list-table {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+/* =========================
+   IMÁGENES
+========================= */
+
+.product-list-image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+
+/* =========================
+   ACCIONES
+========================= */
+
+.product-list-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+
+/* =========================
+   ESTADO VACÍO
+========================= */
+
+.product-list-empty {
+  padding: 3rem 1rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .product-list-actions {
+    flex-direction: column;
+  }
+
+}

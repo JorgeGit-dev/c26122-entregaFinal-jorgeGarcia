@@ -1,0 +1,63 @@
+/* ── Contenedor principal de la vista ── */
+.style-cart-title {
+  color: var(--bs-body-color);
+  letter-spacing: -0.01em;
+}
+
+/* ── Lista / Contenedor de items ── */
+.cart-items-container {
+  width: 100%;
+  padding: 1rem 0; 
+  /* Sugerencia: Evita que las tarjetas peguen contra el final de la pantalla en móviles */
+  padding-bottom: 1.5rem; 
+}
+
+/* ── Imagen del producto ── */
+.cart-item-image {
+  max-height: 70px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.cart-summary-column{
+    top:90px;
+}
+
+.cart-empty{
+    max-width:500px;
+}
+
+.cart-title-icon{
+    font-size:1.75rem;
+}
+
+/* ── Tarjeta Lateral de Resumen (CartSummary) ── */
+.style-summary-card {
+  background-color: var(--color-surface, #ffffff);
+  border: 1px solid var(--color-border, #e3e6f0);
+}
+
+/* Transición interactiva para el botón de confirmación final */
+.transition-btn {
+  transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.transition-btn:hover {
+  transform: translateY(-1px);
+}
+
+/* ── Animación de entrada suave (Fade In) ── */
+.animate-fade-in {
+  animation: cartItemFade 0.3s ease-in-out;
+}
+
+@keyframes cartItemFade {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

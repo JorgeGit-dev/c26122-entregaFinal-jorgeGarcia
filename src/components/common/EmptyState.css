@@ -1,0 +1,37 @@
+/* ========================= */
+/* EMPTY STATE CARD           */
+/* ========================= */
+
+.empty-state-card {
+  max-width: 520px;
+  background: #ffffff;
+  color: #212529;
+  border: none;
+  border-radius: 1rem;
+}
+
+
+/* icono */
+.empty-state-card .display-4 {
+  color: #6c757d;
+}
+
+
+/* título */
+.empty-state-card h2 {
+  color: #212529;
+}
+
+
+/* descripción */
+.empty-state-card p {
+  color: #495057;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+/* botón */
+.empty-state-card .btn {
+  font-weight: 600;
+}

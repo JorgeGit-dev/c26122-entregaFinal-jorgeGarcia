@@ -1,0 +1,132 @@
+/* ========================= */
+/* ITEM DETAIL               */
+/* ========================= */
+
+.item-detail {
+  border-radius: 1.2rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* imagen principal */
+.item-detail-image-wrapper {
+  height: 340px;
+  background: var(--bs-light);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-detail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 .35rem 1rem rgba(0,0,0,.08);
+  transition: transform .3s ease;
+}
+
+.item-detail-image-wrapper:hover .item-detail-image {
+  transform: scale(1.03);
+}
+
+.item-detail .border-top {
+  border-color: rgba(0,0,0,.08) !important;
+}
+
+/* título */
+.item-detail h1 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+
+/* caja de info */
+.item-detail-info {
+  border-radius: .75rem;
+}
+
+/* precios destacados */
+.item-detail .text-primary,
+.item-detail .text-success {
+  font-size: 1.1rem;
+}
+
+/* botones */
+.item-detail-actions .btn {
+  font-weight: 600;
+  padding: .75rem;
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease;
+}
+
+.item-detail-actions .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 .35rem .8rem rgba(0,0,0,.12);
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .item-detail-image-wrapper {
+    height: 250px;
+  }
+}
+
+/* accesibilidad motion */
+@media (prefers-reduced-motion: reduce) {
+  .item-detail-image {
+    transition: none;
+  }
+}
+
+/* ========================= */
+/* DESCRIPCIÓN               */
+/* ========================= */
+
+.item-detail-description{
+  color:#212529;
+  font-size:1rem;
+  line-height:1.8;
+  font-weight:500;
+  text-align:justify;
+  margin-bottom:1.5rem;
+}
+
+/* ========================= */
+/* INFORMACION PRODUCTO      */
+/* ========================= */
+
+.info-card{
+  background:#ffffff;
+  border:1px solid #dee2e6;
+  border-radius:.75rem;
+}
+
+.info-title{
+  color:#6c757d;
+  font-size:.8rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.3px;
+}
+
+.info-value{
+  color:#212529;
+  font-size:1.05rem;
+  font-weight:700;
+}
+
+/* ========================= */
+/* DESCRIPCION               */
+/* ========================= */
+
+.item-detail-description{
+  color:#212529;
+  font-size:1rem;
+  font-weight:500;
+  line-height:1.8;
+  text-align:justify;
+  margin-bottom:1.5rem;
+}
