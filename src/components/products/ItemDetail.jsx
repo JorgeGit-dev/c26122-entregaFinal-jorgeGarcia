@@ -139,7 +139,7 @@ export const ItemDetail = ({ item }) => {
 
         )}
 
-        <div className="d-flex flex-column flex-sm-row gap-2 mt-auto">
+        <div className="item-detail-actions d-flex flex-column flex-sm-row gap-2 mt-auto">
 
           <button
             type="button"
@@ -185,7 +185,7 @@ export const ItemDetail = ({ item }) => {
 const InfoRow = ({ label, value }) => (
   <div className="col-6">
 
-    <div className="border rounded-3 p-3 text-center shadow-sm h-100 info-card">
+    <div className="border rounded-3 p-3 text-center shadow-sm h-100 item-detail-info-card">
 
       <div className="info-title mb-2 text-dark">
 
@@ -201,7 +201,7 @@ const InfoRow = ({ label, value }) => (
 
       </div>
 
-      <div className="info-value text-dark">
+      <div className="item-detail-info-value text-dark">
         {value}
       </div>
 

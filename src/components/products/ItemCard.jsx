@@ -79,7 +79,7 @@ export const ItemCard = ({ product, children }) => {
                   Peso
                 </div>
 
-                <div className="info-value">
+                <div className="item-card-info-value">
                   {peso}
                 </div>
 
@@ -112,7 +112,7 @@ export const ItemCard = ({ product, children }) => {
         </div>
 
         {descripcion && (
-          <p className="item-card-description">
+          <p className="item-card-description text-description-clamp">
             {descripcion}
           </p>
         )}

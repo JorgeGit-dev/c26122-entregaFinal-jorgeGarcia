@@ -82,23 +82,10 @@
 }
 
 /* ========================= */
-/* DESCRIPCIÓN               */
-/* ========================= */
-
-.item-detail-description{
-  color:#212529;
-  font-size:1rem;
-  line-height:1.8;
-  font-weight:500;
-  text-align:justify;
-  margin-bottom:1.5rem;
-}
-
-/* ========================= */
 /* INFORMACION PRODUCTO      */
 /* ========================= */
 
-.info-card{
+.item-detail-info-card{
   background:#ffffff;
   border:1px solid #dee2e6;
   border-radius:.75rem;
@@ -112,21 +99,21 @@
   letter-spacing:.3px;
 }
 
-.info-value{
+.item-detail-info-value{
   color:#212529;
   font-size:1.05rem;
   font-weight:700;
 }
 
 /* ========================= */
-/* DESCRIPCION               */
+/* DESCRIPCIÓN               */
 /* ========================= */
 
 .item-detail-description{
   color:#212529;
   font-size:1rem;
-  font-weight:500;
   line-height:1.8;
+  font-weight:500;
   text-align:justify;
   margin-bottom:1.5rem;
 }
